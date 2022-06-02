@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+  
+.logo {
+  width: 100px;
+  float: left;
+  height: 90px;
+  margin: 0px 130px;
+}
+.thanh-menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 90px;
+  overflow: visible;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: yellowgreen;
+  border-radius: 10px;
+  display: block;
+  font-size: 20px;
+  font-weight: 600;    
+}
+#menu{
+  height: 60px;
+  
+
+}
+.danh-muc{
+  float: left;
+  margin-left: 50px;
+  
+}
+.dropbtn{
+  margin-left: 50px;
+}
+
+.danh-muc  .danh-muc1, .dropbtn {
+
+text-decoration: none;
+display: inline-block;
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 35px 30px;
+cursor: pointer;
+}
+.danh-muc  .danh-muc1:hover, .dropdow:hover .dropbtn{
+  background-color:  yellowgreen;
+  border-radius: 30px;
+
+}
+.danh-muc , .dropdow{
+  display: inline-block;
+
+}
+
+.dropdow-content{
+  display: none;
+  position: absolute;
+  background-color:  #87b42c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+
+}
+.dropdow-content  .danh-muc1{
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdow-content  .danh-muc1:hover {
+  background-color: #06ae47;
+  color: rgb(7, 2, 22);
+  font-weight: 600;
+  
+}
+.dropdow:hover .dropdow-content{
+  display: block;
+}
+
+#search-box{
+  float: right;
+  margin: 15px;
+  padding: 6px;
+  
+  
+  
+}
+#search-box{
+  background-color: #fff;
+  border-radius: 30px;
+  
+  
+  
+}
+#search-box #search-text{
+  border: none;
+  outline: none;
+  background-color: #fff;
+  font-size: 15px;
+  width: 0;
+  padding: 0;
+  transition: all 0.25s ease-in-out;
+  
+}
+
+#search-btn{
+  background-color: #fff;
+  border: none;
+  padding: 7px 5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#search-box:hover #search-text{
+  width: 300px;
+  padding: 5px 10px;
+  font-weight: 600;
+  
+}
+
+.voi{
+  text-align: center;
+  
+}
+
+article h3{
+  text-align: center;
+  padding: 15px 0;
+  color: rgba(230, 17, 17, 0.944);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+article .new_list .new_item{
+  width: 28%;
+  padding: 2%;
+  float: left;
+  border: 1px solid #ccc;
+  margin-left: 1%;
+ margin-bottom: 40px;
+}
+h4{
+  text-align: center;}
